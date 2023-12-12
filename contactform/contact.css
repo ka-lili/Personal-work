@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    background-image: url("../images/star.jpg");
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4CAF50;
+   
+  }
+  
+  label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4c68af;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  button:hover{
+    background: #97999e;
+  }
+  h1{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  
